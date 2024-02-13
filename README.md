@@ -11,13 +11,13 @@ remedyNetworkCert is a Jamf Pro workflow that allows network certificates to be 
 
 # Deployment
 1. Download the remedyNetworkCert.zsh script.
-2. Create a new script in **Jamf Pro > Settings > Computer Management > Scripts** and ddd the following parameter labels to the newly added script:
+2. Create a new script in **Jamf Pro > Settings > Computer Management > Scripts** and add the following parameter labels to the newly added script:
     * Client ID
     * Client Secret
     * Static group ID
     * Network profile UUID
-3. Create a new policy in **Jamf Pro > Computers > Policies** > New
+3. Create a new policy in **Jamf Pro > Computers > Policies > New**:
     * Set the `Execution Frequency` to `Ongoing`
     * Add the remedyNetworkCert.zsh as the script payload and provide the parameters.
-    * Add Self-Service entry with description letting the user know they need to be on VPN to complete this.
+    * Enable Self-Service and add description letting the user know they need to be on VPN to complete this.
     * Scope to `All Computers`
