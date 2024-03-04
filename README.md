@@ -6,7 +6,6 @@ remedyNetworkCert is a Jamf Pro workflow that allows network certificates to be 
     * Read Static Computer Groups
     * Update Static Computer Groups
 2. A static computer group in Jamf Pro (note the ID in the URL)
-    * https://JAMF_PRO/staticComputerGroups.html?**id=907**
 3. UUID of the network configuration profile
 
 # Deployment
