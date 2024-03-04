@@ -2,11 +2,12 @@
 remedyNetworkCert is a Jamf Pro workflow that allows network/computer certificates to be re-issued from Self-Service.
 
 # Requirements
-1. API Client with the following privileges:
+1. swiftDialog (at least version 2.3.2)
+2. API Client with the following privileges:
     * Read Static Computer Groups
     * Update Static Computer Groups
-2. A static computer group in Jamf Pro (note the ID in the URL)
-3. UUID of the network configuration profile
+3. A static computer group in Jamf Pro (note the ID in the URL)
+4. UUID of the network configuration profile
 
 # Deployment
 1. Download the remedyNetworkCert.zsh script.
