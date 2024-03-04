@@ -1,5 +1,5 @@
 # remedyNetworkCert
-remedyNetworkCert is a Jamf Pro workflow that allows network certificates to be re-issued from Self-Service.
+remedyNetworkCert is a Jamf Pro workflow that allows network/computer certificates to be re-issued from Self-Service.
 
 # Requirements
 1. API Client with the following privileges:
